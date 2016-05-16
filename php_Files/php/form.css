@@ -1,0 +1,92 @@
+body{
+  margin:0;
+  padding:0;
+}
+span{
+    Font-size:22px;
+    color:#345398;
+    font-weight: 400;
+    padding-left:10px 10%;
+    margin-left:1%;
+}
+.heading{
+	Font-size:22px;
+    color:#345398;
+    font-weight: 400;
+    padding-left:10px 10%;
+    margin:0;
+}
+
+input{
+    margin-left:40px;
+    margin-top:20px;
+    width:20%;
+    height:30px;
+}
+.dropdown{
+    width:13%;
+    height:30px;
+    margin-top:20px;
+    margin-left:7%;
+}
+.pwd {
+    margin-left: 49px;
+    width: 20%;
+}
+.lnm{
+    margin-left:42px;
+    margin-top:20px;
+    width:20%;
+    height:30px;
+}
+.tx1{
+	padding-left:5%;
+}
+.tx2{
+	padding-left:5%;
+}
+.rd1 {
+    height: 10%;
+    width: 1%;
+}
+.rd2 {
+    height: 10%;
+    width: 1%;
+}
+.hack{
+	padding-left:4%;
+}
+.rd3 {
+    height: 10%;
+    width: 1%;
+}
+.rd4 {
+    height: 10%;
+    width: 1%;
+}
+.rd5 {
+    height: 10%;
+    width: 1%;
+}
+.fot{
+	padding-left:4%;
+}
+.cri{
+	padding-left:4%;
+}
+.cmt {
+    vertical-align: top;
+    margin-top:20px;
+}
+.sbmit {
+    color: #876548;
+    font-size: 20px;
+    height: 33px;
+    width: 8%;
+}
+.reset {
+	color: #876548;
+    font-size: 20px;
+    height: 33px;
+    width: 8%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link rel="stylesheet" type="text/css" href="form.css">
+ </head>
+  <body>
+   <form action="data.php" method="POST" enctype="multipart/form-data">
+     <fieldset>
+       <legend><span class="heading"> USER REGISTRATION FORM</span></legend>
+     <span> First Name : </span> <input type = "text" name = "fname"   required  id="nm" /><br/>
+     <Script>
+     var email = document.getElementById('nm');
+     </Script>
+     <span> Last Name :</span>  <input class="lnm" type = "text" name = "lname" id="ln" /><br/>
+     <span> Class :</span><select class="dropdown" name="drop">
+		      <option>1</option>
+		      <option>2</option>
+		      <option>3</option>
+		      <option>4</option>
+		      <option>5</option>
+		      <option>6</option>
+		      <option>7</option>
+		      <option>8</option>
+		      <option>9</option>
+		      <option>10</option>
+		      <option>11</option>
+		      <option>12</option>
+	          </select>
+	 <br/><span> Password : </span>  <input class="pwd" type = "password" name = "pswd" required  id ="pass" /> <br> 
+	 </script>
+	 <span> Confirm Password : </span>  <input type = "password" name = "Cnpswd" required /><br>
+	 <span> Nationality : </span>  <input type = "text" name = "nationality"/><br>
+	 <span > Gender: </span> <span class="tx1">Male : </span>  <input class="rd1" type = "radio" name ="sex" value  = "male" checked="male" required/>
+	 <span class="tx2"> Female :</span> <input class="rd2" type ="radio" name ="sex" value ="Feamle" required /><br>
+	 <span> Interest :</span> <span class="hack">Hacking : </span><input class="rd3" type ="checkbox" name = "hack"/>
+	 <span class="fot"> Football :</span><input class="rd4" type ="checkbox" name ="foot"/>
+	 <span class="cri"> Cricket :</span><input class="rd5" type = "checkbox" name ="cricket"/><br>
+	 <br> <span class="cmt">Comments :</span> <textarea class="txarea" name = " cmt" rows="7" cols ="20" maxlength="100"> </textarea><br>
+	 <span> Upload Photo : </span><input type ="file" name ="ulfl"/><br>
+	  <input class="sbmit" type ="submit" value ="Submit" onclick="str()" />
+	  <input class="reset" type ="button" value = "Reset" /><br>
+	  </fieldset>
+  	</form>
+
+  </body>
+</html>

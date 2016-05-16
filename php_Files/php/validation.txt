@@ -1,0 +1,45 @@
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+$name = $_POST["name"]
+
+$email = $_POST["email"];
+
+$number= $_POST["website"];
+
+}
+
+if (empty($name)){
+
+echo "<p class=\"error\">Your last name cannot be blank</p>";
+
+}
+
+if(empty($email)) )){
+
+echo "<p >Your email id  cannot be blank</p>";
+
+}
+
+if(empty($number) || $number <1000000000&& $number>=1000000000)
+
+{
+
+echo “<p>Number should be of 10 digit</p>”
+
+}
+
+form action="validate.php" method="POST">
+
+Name:<input type="text" name="Name" />
+
+Email:<input type="text" name="Email" />
+
+Number:<input type="text" name="number" />
+
+<input type="submit" name="submit” />
+
+</form>
+
+ 
+
+</body>
