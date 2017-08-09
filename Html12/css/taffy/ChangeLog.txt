@@ -1,0 +1,35 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+
+## 0.3.0 - 2017-06-21
+### Added
+- Tables
+- Add more to Helpers
+
+## 0.2.0 - 2017-06-20
+### Added
+-Grid Offset
+
+## 0.1.6 - 2017-06-20
+### Changed
+- Changed the class "is-x-percent" to "is-xp". For example: "is-50-percent" now is declared using "is-50p"
+
+## 0.1.5 - 2017-06-18
+### Added
+- Added Media
+### Fixed
+- Fixed Grid Specific Sizing so "--small" worked as intended.
+
+## 0.1.0 - 2017-06-17
+### Added
+TAFFY BETA RELEASE
+- Added Getting Started
+- Added Container 
+- Added Grid
+- Added Grid Column Sizing
+- Added Grid 12 Columns
+- Added Grid Specific Sizing
+- Added Fluid Typography
+- Added Buttons
+- Added Forms
+- Added Helpers

@@ -1,0 +1,260 @@
+/* Site background color */
+
+.node-type-answers-question .view-innogen,
+.node-type-answers-question .view-innogen .views-row {
+  background: #1c51c5;
+}
+
+.node-type-answers-question .view-innogen .unflag-action:after {
+  color: #1c51c5;
+  border-color: transparent;
+}
+
+header.blue-background, .wg-login-msg {
+  background: #1c51c5;
+}
+.wg-landing-page-header .wg-user-header-info {
+  border: 2px solid #1c51c5;
+}
+.wg-landing-page-crousal-slider .sp {
+  background: #1c51c5;
+}
+.wg-wrapper-common-settings .wg-landing-page-text, .wg-skip-to-home {
+  background: #1c51c5; 
+} 
+.wg-leader-board-wrapper .wrap-sp .header-title {
+  color: #1c51c5;
+  border-bottom: 1px solid #1c51c5;
+}
+ .wg-leader-board-wrapper .wg-actvity-header-title {
+  border-bottom: 3px solid #1c51c5;
+}
+/* Color for the Real time user */
+.real-time-dashboard-wrapper .aggregated-number {
+  color: #1c51c5;
+} 
+.real-time-dashboard-wrapper .aggregated-title {
+  background: #1c51c5;
+}
+ /* color for the Reward store page */
+.header-section .Reward-title a, .navbar-reward-store li a, .wg-rsa-add-button a  {
+  color: #1c51c5 !important;
+}
+.main-content-wrapper .wg-rsa-add-button {
+  border: 3px solid #1c51c5;
+}
+.page-store-settings .main-content-wrapper .wg-rsa-mail, .view-products-listing .views-table thead tr th,.wg-add-another-item:before {
+  background-color: #1c51c5;
+}
+.page-all-orders .wg-all-order-table thead > tr > th,.container-inline, #edit-options--2 {
+  background: #1c51c5 !important;
+}
+.page-my-orders .wg-all-order-table thead > tr > th,.table-footer {
+   background: #1c51c5;
+}
+.main-content-wrapper .Reward-title{
+  border-bottom: 2px solid #1c51c5;
+}
+.user-point-details .user-point-first{
+  background: #1c51c5;
+}
+.reward-stroe .product-descpt, .button {
+   background: #1c51c5;
+}
+/* color for the landing page button slider */
+.page-landing-page .wg-nav-wrapper .slider-pager .activeSlide {
+  background: #1c51c5;
+}
+/* adding border and background on the home page menus */
+#block-woxgo-custom-wg-vol-initiative-links #wg-vol-ini-link-wrapper a {
+  background: #1c51c5;
+}
+/* adding background color for the idea filter */
+.node-type-answers-question .view-filters .views-exposed-form, .form-submit {
+  background: #1c51c5;
+}
+/* adding background color for the terms and conditon page */
+.page-term-condition-page .term-condtion-header,.wg-terms-conditions-form-wrapper {
+  background-color: #1c51c5;
+}
+.view-innogen .flag-message,
+.video-text-overlap,
+#block-woxgo-custom-wg-investment-graph #wg-invst-val-wrapper:before,
+.wg-innostream-left-blk .wg-innogen-wrapper,
+.wg-innostream-right-blk .wg-innostream-wrapper .wg-innostream-approved:before,
+#wg-new-innogen .modal-footer input,
+.wg-medium,
+.wg-add-item,
+.wg-add-milestone,
+.wg-add-activity-btn,
+.wg-inactivate-idea,
+.wg-video-slider-play,
+.innostrm-comment-approve,
+.wg-video-slider-pause,
+.wg-prescr-sub-btn {
+  background: #1c51c5;
+}
+#wg-innostream-eval .wg-innostream-eval-step2 .wg-innostrm-odd-ideas {
+  border-top: 5px solid #1c51c5;
+}
+.page-my-activities .page-header,.page-my-accomplishments .page-header {
+  color: #1c51c5;
+  border-color: #1c51c5;
+}
+.activities-tabs li a.chart_div1 {
+  color: #1c51c5;
+}
+.wg-idea-bucket .tab-list {
+  border-top-color: #1c51c5;
+}
+.wg-idea-bucket .tab-list li a {
+  color: #1c51c5;
+}
+.wg-idea-bucket .wg-innostream-listing .instrm-panel-title {
+  background: #1c51c5;
+}
+.table-records .table-label {
+  color: #1c51c5;
+}
+.block-worxogo-my-activities .block-title {
+  color: #1c51c5;
+  border-color: #1c51c5;
+}
+.tab-badge .title {
+  border-color: #1c51c5;
+}
+.number {
+  color: #1c51c5;
+}
+.title-activities, .level-criteria h2 {
+  color: #1c51c5;
+  border-color: #1c51c5;
+}
+.user-badge-name,
+.user-trophy-name {
+  color: #1c51c5;
+}
+.wg-idea-by .ideator-name {
+  color: #1c51c5;
+}
+.wg-top-commenters-block h2.block-title,
+.wg-top-idea-generator-block h2.block-title,
+.wg-top-likes-block h2.block-title,
+.wg-idea-per-challege-block h2.block-title,
+.wg-idea-status-block h2.block-title,
+#block-woxgo-custom-wg-top-tags h2.block-title,
+#block-woxgo-custom-wg-participation-trends h2.block-title,
+.wg-ingn-listing,
+.view-projects .wg-project-status-listing-header {
+  border-top: 3px solid #1c51c5;
+}
+.mytask-piechart-Wrapper .piechart-heading:after {
+  border-color: #1c51c5;
+}
+.block-rhs-front .block-title,
+.block-rhs-front > a {
+  border-bottom: 3px solid #1c51c5;
+}
+.caret {
+  border-top-color: #1c51c5 !important;
+  border-bottom-color: #1c51c5 !important;
+}
+.login-user-custom .caret {
+  border-top-color: #fff !important;
+  border-bottom-color: #fff !important;
+}
+.wg-search .wg-add-tag-btn {
+  background: #1c51c5;
+}
+.wg-search .wg-tag .wg-remove-item {
+  color: #1c51c5;
+}
+.tap-pane-kpis .kpis-add-btn {
+  background: #1c51c5;
+}
+.remove-choosen-kpi {
+  color: #1c51c5;
+}
+.btn.wg-invst-btn,
+.wg-investment-btn,
+.page-projects #wg-add-innostream-btn,
+#wg-add-innostream-btn,
+#wg-innostream-eval .modal-footer input,
+.main-content-wrapper .btn,
+.wg-project-save-btn,
+.wg-project-tab .tab-pane .team .wg-add-member-btn,
+.wg-project-details-button:before,
+.wg-investment-frm .wg-usr-invstmt input {
+  background: #1c51c5;
+  border: 1px solid;
+  color: #fff;
+}
+.views-slideshow-controls-text-previous a,
+.views-slideshow-controls-text-status-play a,
+.views-slideshow-controls-text-status-pause a,
+.views-slideshow-controls-text-next a {
+  color: #1c51c5;
+}
+.wg-accordion-arrow:before,
+.flag-action:after,
+.wg-user-point-scale-main-wrapper,
+#block-woxgo-custom-wg-vol-initiative-links #wg-vol-ini-link-wrapper a,
+#block-woxgo-custom-wg-activity-stream .wg-activity-sh-mr-wrapper a,
+.ingn-digit,
+#block-woxgo-custom-wg-all-ideas > div,
+#block-woxgo-custom-wg-my-initiatives > a.collapsed:after,
+#block-woxgo-custom-wg-my-initiatives > a:after,
+.node-type-answers-question .view-innogen .flag-action:after,
+.answersComments a,
+.wg-show-more-lnk-1,
+.wg-innostream-right-blk .wg-innostream-wrapper .wg-arrow:before,
+.wg-selected-members .wg-sponsors .wg-remove-item,
+.node-answers_question-form .autocomplete-deluxe-throbber:before,
+.node-innovision-form .autocomplete-deluxe-throbber:before,
+.wg-top-commenters-block .wg-top-users-wrapper .wg-top-users-wrapper-first .wg-top-users-action-cnt,
+.wg-top-likes-block .wg-top-users-wrapper .wg-top-users-wrapper-first .wg-top-users-action-cnt,
+.wg-top-commenters-block .wg-top-users-wrapper .wg-top-users-action-cnt,
+.wg-top-likes-block .wg-top-users-wrapper .wg-top-users-action-cnt,
+.view-projects .ui-icon:before,
+.wg-project-details-button,
+.wg-list-project-vol-link,
+.wg-project-tab .tab-pane .team .wg-search:after {
+  color: #1c51c5;
+}
+
+.myinvestments-mobileblock .heading {
+  color: #1c51c5;
+}
+.page-content-homepage .ingn-heading .field-item:hover,.page-administer-evaluate-innogens .ingn-heading .field-item:hover {
+  color: #1c51c5;
+  cursor: pointer;
+}
+
+
+
+
+/* Lists */
+/*ul,
+li,
+ul li.collapsed,
+ul li.expanded,
+ul li.leaf {
+ color: #777777;
+}*/
+ 
+/* Site titles */
+/*h1, h2 { color: #333333; }
+ */
+/* Main content area links */
+/*#main-content a:link,
+#main-content a:visited,
+#main-content a:hover,
+#main-content a:focus,
+#main-content a:active { color: #ff7f00; }*/
+ 
+/* Main menu links */
+/*#site-menu ul li a { color: #666666; }
+*/ 
+/* Main menu active links */
+/*#site-menu ul li.active-trail a,
+#site-menu ul li a.active { background: #eeeeee; color: #000000; }*/

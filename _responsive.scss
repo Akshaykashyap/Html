@@ -1,0 +1,3024 @@
+@media (min-width: 1024px) {
+  .custom-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  #wg-innostream-eval,.wg-new-innogen {
+    .modal-dialog {
+      width: 1005px;
+    }
+  }
+  #wg-innostream-eval {
+   .wg-innostrm-odd-ideas {
+    float: left;
+    width: 48.8%;
+    margin-right: 10px;
+  }
+  .wg-innostrm-even-ideas {
+    margin-left: 10px;
+    float: right;
+    width: 48.7%;
+  }
+} 
+.wg-new-innogen {
+  .wg-project-model {
+    float: left;
+    width: 48.8%;
+    margin-right: 10px; 
+  }  
+}
+.wg-innostream-left-blk {
+  width: 75%;
+  float: left;
+}
+/* Evaluation prescreen page box moveable css */
+.wg-innostream-right-blk{
+  width: 23%;
+  float: right;
+  clear: right;
+}
+/*** css for idea status ***/
+.wg-idea-status-block {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+#block-woxgo-custom-wg-top-tags {
+  width: 48%;
+  float: right;
+  margin-left: 2%; 
+}
+.wg-img-tablet {
+  display: none;
+}
+.main-content-wrapper {
+  .col-sm-9 {
+   width: 70%;
+ }
+ .right-sidebar {
+  width: 30%;
+  .main-wrapper-sidebar {
+    float: right;
+  }
+}
+}
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  right: 59px;
+  width: 20.8%;
+}  
+}
+@media (max-width: 1024px) {
+ /*** css for side bar **/
+ .wg-img-tablet {
+  background: url("../images/tablet.png") no-repeat center;
+  height: 40px;
+  width: 60px;
+  float: right;
+  display: block;
+  z-index: 999;
+  background-color: #fff;
+  position: relative;
+  top: 2px;
+}
+.right-sidebar {
+  width: 100%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 9;
+  height: 100%;
+  display: none;
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    min-height: 1013px;
+  }
+  .wg-img-tablet {
+    right: 10px;
+    top: 165px;
+  } 
+}
+.main-wrapper-sidebar {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  position: relative;
+  top: 165px;
+  z-index: 9;
+  padding: 2em 7%;
+}
+body {
+  position: relative;
+}
+.region.region-sidebar-second {
+  float: left;
+  width: 50%;
+  padding-right: 5%;
+  margin: 0;
+  max-width: 100%;
+}
+.region.region-sidebar-second-one {
+  float: left;
+  width: 50%;
+  padding-left: 5%;
+  margin: 0;
+  max-width: 100%;
+}
+#block-woxgo-custom-wg-vol-initiative-links {
+  #wg-vol-ini-link-wrapper {
+    margin-bottom: 7px;
+  }
+}
+.navbar-collapse{
+  width:20%;
+}
+.brand-tag-line {
+  font-size: 13px;
+}
+.node-answers-answer {
+  .content {
+    .wg-idea-attach-cnt {
+      width: 310px;
+      &:before {
+        left: 252px;
+      }
+    }  
+  }
+}    
+}
+@media (min-width: 992px) {
+/*
+  .wg-top-users-flname {
+    width: 100%;
+    float: left;
+    }*/
+
+
+  }
+  @media (max-width: 992px) {
+
+    .wg-top-commenters-block,
+    .wg-top-likes-block { 
+     .wg-top-users-wrapper { 
+       .wg-top-users-wrapper {
+        .wg-top-users-wrapper-first {
+          width: 100%;
+          margin-bottom: 1em;
+        }
+        .wg-top-users-wrapper-all {
+          width: 100%;
+        }
+      } 
+    } 
+  }
+  .page-search {
+    .search-results  {
+      .search-icon{
+        width: 100%;
+        float: left;
+      }
+      .nav-tabs {
+       margin: 0px;
+       margin-bottom: 2em;
+       padding-left: 0px;
+       padding-right: 0px;
+     }
+     ul {
+
+      li {
+        display: none;
+        float: left;
+        width: 100%;
+      }
+    }
+  }
+}
+#block-woxgo-custom-wg-analytics-header {
+  #wg-analytics-header {
+    background: url("../images/dashboard-img.png") no-repeat top left;
+    background-position: 0% 9px;
+    a {
+      display: none;
+    }
+  }
+}
+/** css for anlytics page **/
+.wg-top-commenters-block,
+.wg-top-likes-block { 
+ .wg-top-users-wrapper {
+   .wg-top-users-wrapper-all {
+     .wg-top-users-sub-wrapper-all{
+       width: 100%;
+     }
+   }
+ } 
+}  
+
+}
+@media (min-width: 768px) {
+ .volunteer-col-first, .wg-live-initiative-frst-column {
+  padding-right: 25px !important;
+  width: 50%;
+  float: left;
+}
+.volunteer-col-second, .wg-live-initiative-second-column {
+  padding-left: 25px !important;
+  width: 50%;
+  float: left;
+}
+.wg-idea-innogen-frst-column {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+.wg-idea-innogen-second-column {
+  width: 48%;
+  float: right;
+  margin-left: 2%;
+}
+.ingn-idea-list-block {
+  padding: 2px 19.5% 35px 13%;
+}
+.wg-ideas-odd-column {
+  width: 48.1%;
+  margin-right: 1.9%;
+  float: left;
+}
+.wg-ideas-even-column {
+  float: right;
+  width: 48.1%;
+  margin-left: 1.9%;
+}
+.node-answers_question-form, 
+.node-innovision-form {
+  .form-region-right {
+    width: 47%;
+    margin-left: 3%;
+    margin-top: 4.5em;
+  }
+  .form-region-main {
+    width: 47%;
+    margin-right:3%;
+  }
+}
+.menubaar {
+  .nav-tabs {
+    padding-left: 12px;    
+  }
+}
+//myactivity mytask page css
+.mytask-piechart-Wrapper {
+  display: table;
+  width: 100%;
+  .mytask-piechart {
+    display: table-cell;
+    width: 25%;
+    &:nth-child(n+2) {
+      .piechart-heading {
+        padding-left: 10px;
+      }
+    }
+    border-right: 1px solid $color-greytwo;
+    border-bottom: 3px solid $color-greyeight;
+  }
+}
+.myinvestment-piechart-wrapper {
+  width: 100%;
+  display: table;
+  .myinvestment-piechart {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+    #bar_chart_div {
+      border-left: 1px solid $color-greyfour;
+    }
+    #MyInvestments_chart_div,#bar_chart_div {
+      width: 100%;
+      min-height: 250px;
+    }
+  }
+}
+.myinvestments-mobileblock {
+  display: none;
+}
+}
+
+@media (min-width: 521px) and (max-width: 768px) {
+  .wg-innostream-page-wrapper,.ng-scope {
+    .links-like-date {
+      width: 30%;
+    }  
+  }
+  .page-engagement-statistics{ 
+    .aggregate-static {
+      width: 16.6%;
+      &:last-child {
+        width: 17%;
+      }
+    }
+    .inngn-dept-fltr-title {
+      display: block;
+    }
+    .aggregated-statitics-data,
+    .aggregated-title {
+      font-size: 11px;
+      padding: 15px 13px;
+    }
+    .inngn-create {
+      padding: 20px 6px;
+    }
+    .aggregated-title {
+      padding: 10px 13px;
+    }  
+  }  
+}
+@media (min-width: 521px) and (max-width: 767px) {
+  .node-answers-answer {
+    .content {
+      .wg-idea-attach-cnt {
+        width: 75% !important;
+        &:before {
+          left: 85% !important;
+        }
+      }  
+    }
+  }
+}  
+@media (max-width: 520px) {
+  .wg-innostream-page-wrapper,.ng-scope {
+    .links-like-date {
+      width: 60%;
+    }  
+  }
+  .page-engagement-statistics{ 
+    .aggregate-static {
+      width: 33.3%;
+      &:last-child {
+        width: 33.3%;
+      }
+    }
+    .aggregated-statitics-data {
+      padding: 10px 7px; 
+    }
+    .inngn-create {
+      padding: 6px;
+    }
+    .aggregated-title {
+      padding: 10px 7px;
+    }
+  } 
+}
+@media (min-width: 1024px) and (max-width: 1270px) {
+  .wg-project-name {
+    width: 18%;
+  }
+  .wg-project-date {
+    width: 36.6%;
+  }
+  .ingn-idea-list-block {
+    padding: 35px 5.5% 35px 5%;
+  }
+  .wg-innostream-left-blk {
+    width: 70%;
+    padding: 3.5% 1.5% 2% 1.5%;
+  }
+  .wg-innostream-right-blk {
+    width: 30%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wg-innostream-page-wrapper,.ng-scope {
+    .links-like-date {
+      width: 20%;
+    }  
+  }
+  /* Evaluation prescreen page box moveable css */
+  .fixed-sidebar {
+    width: 28%;
+    right:25px;
+  }
+  /*  Responsive Design for the Real time user engagement */
+  .real-time-dashboard-wrapper {
+    width: 100%;
+    /* display: inline-block; */
+    height: 92px !important;
+    margin-bottom: 1em;
+    position: relative;
+    .aggregated-statitics {
+      width: 32%;
+      float: left;
+      height: inherit;
+      border: 2px solid #000;
+      margin-left: 14px;
+      background-color: #fff;
+      color: #000;
+      font-family: roboto-light;
+    }
+    .statistics-text {
+      padding: 15px;
+      text-align: center;
+      font-family: roboto-light;
+      font-size: 15px;
+    }
+    .aggregated-statitics-row {
+      float: left;
+      width: 65%;
+      font-weight: bold;
+      border: 2px solid #000;
+      border-left: 0;
+      font-size: 11px;
+      color: #000;
+      font-family: roboto-light;
+    }
+    .aggregate-static {
+      width: 15.8%;
+      float: left;
+      border-right: 1px solid #000;
+      &:last-child {
+        border-right: 0;
+        width: 21%;
+        float: left;
+      }
+    }
+    .inngn-title {
+      padding: 1.4em 0.3em;
+      float: left;
+      width: 61%;
+      font-size: 14px;
+      line-height: 1.2;
+      word-break: break-all;
+    }
+  }
+  .wg-filter-wrapper {
+    min-height: 35px;
+    margin: 0 auto .7em;
+    text-align: center;
+    width: 100% !important;
+  } 
+  .wg-filter-wrapper .innogn-fltr-title {
+    width: 30% !important;
+    padding: 3px 15px;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .custom-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .error {
+    width: 100%;
+    float: left;
+  }
+  
+  /** main section **/
+  #main-section {
+    width: 100%;
+    display: inline-block;
+  }
+  /** second side bar **/
+  .sidebar.img {
+    padding-left: 0;
+    width: 100%;
+  }
+  /*** hide submenu item on tab ***/
+  .tab-hide {
+    display: none !important;
+  }
+  /*** css for project page ***/
+  .wg-ingn-listing > div:nth-last-child(3) {
+    padding-left: 5%;
+  }
+  .wg-ingn-listing > div:first-child {
+    padding-right: 4%;
+  }
+  .wg-parent-term {
+   width: 33.33%;
+   float: left;
+   margin-bottom: 5px;
+ }
+ .wg-instrm-title-header {
+  width: 40%;
+}
+.wg-instrm-wrapper .wg-project-details-button {
+  float: left;
+  width: 11%;
+}
+.wg-project-name {
+  width: 100%;
+  input {
+    width: 44.5%;
+  }
+}
+.wg-project-tab .tab-pane .team .error {
+  bottom: -62px;
+}
+.wg-project-date  {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1.2em;
+  input {
+    width: 43.5%;
+  }
+}
+.wg-project-save {
+  width: 43.5%;
+}
+.wg-volunteer-text {
+  width: 30%;
+}
+.wg-project-tab .tab-pane .team .wg-search:after {
+  left: 85%;
+} 
+.wg-project-tab .tab-pane .team .wg-search {
+  width: auto;
+  margin-right: 1em;
+
+}
+.wg-project-tab .wg-project-add-list {
+  width: 100%;
+  padding-left: 0;
+  padding-top: 18px;
+}
+.wg-project-status-scope-wrapper span {
+  width: 35%;
+}
+.wg-instrm-author span:last-child {
+  line-height: 15px;
+  display: block;
+}
+.wg-list-project-vol-wrapper {
+  width: 19%;
+  padding-right: 0px;
+}
+.wg-project-tab .tab-pane .team .wg-search input {
+  width: auto;
+}
+.wg-project-tab .tab-pane .team .wg-add-member-btn {
+  float: left;
+}
+.wg-project-tab .tab-pane .team {
+  padding-right: 0px;
+}
+
+/*** css for evalutate page idea ***/
+.ingn-idea-list-block {
+  padding: 20px 0px 20px 0%;
+}
+.wg-innostream-left-blk {
+  width: 60%;
+  .wg-ideas-odd-column {
+    width: 100%;
+    margin-right: 0;
+  }
+  .wg-ideas-even-column {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.wg-innostream-right-blk {
+ display:inline-block;
+ margin-top:1%;
+}
+
+
+/** css for innogen add form and innovision **/
+.node-answers_question-form, .node-innovision-form  {
+  .preview {
+    width: 90%;
+    margin-right: 5px;
+  }
+  .media-widget {
+    .button.launcher {
+      width: 25px;
+    }
+  }
+  .date-no-float {
+   width: 100%;
+   .form-item {
+     margin-bottom: 0px;
+   }
+   label {
+     width: 100%
+   }
+ }
+ .end-date-wrapper {
+   .date-padding {
+     float: left;
+   }
+ }
+ .form-type-managed-file {
+  .form-file {
+    width: 90%;
+    margin-right: 5px;
+  }
+  .input-group-btn {
+    width: 25px;
+    .btn-default {
+      padding: 15px 0 0 0 ;
+      margin: 0;
+    }
+  }
+} 
+}
+}
+@media (max-width: 768px) {
+  .ingn-idea-count,
+  .ingn-follower-count,
+  .ingn-days-count {
+    min-height: 47px;
+  }
+  .wrap-my-activities {
+    border-bottom: 2px solid $color-greyfour;
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 100%;
+    .activities-tabs {
+      float: left;
+      width: 90%;
+      background: $color-white;
+      margin-bottom: 0;
+      text-align: center;
+      li {
+        width: 100%;
+        margin-bottom: 0;
+        a {
+          border: 0 !important;
+          text-align: center;
+          .count {
+            display: inline;
+            margin-right: 2px;
+          }
+        }
+      }
+    }
+  }
+  .wrap-my-accomplish {
+    @extend .wrap-my-activities;
+  }
+  .tab-prev {
+    float: left;
+  }
+  .tab-next {
+    float: right;
+  }
+  .block-activities-table {
+    .wrap-selectbox {
+      .accepted-rejected-list {
+        margin-top: 1.2em;
+        width: 100%;
+      }  
+    }
+  }
+  .wrap-selectbox {
+    .wrap-innovision {
+      margin-right: 0;
+      width: 100%;  
+    }
+    select {
+      width: 100%;
+    }
+    .wrap-innogen {
+      margin-top: .5em;
+    }
+  }  
+  .glyphicon-menu-left {
+    &:before {
+      content: "\e079";
+    }
+  }
+  .glyphicon-menu-right {
+    &:before {
+      content: "\e080";
+    }
+  }
+  .glyphicon {
+    &:before {
+      color: $color-blue;
+      cursor: pointer;
+      line-height: 3;
+      font-size: 13px;
+      font-weight: normal;
+    }
+    &.glyphicon-play {
+      &:before {
+        color: $color-white;
+        line-height: 1;
+        font-size: inherit;
+      }
+    }
+    &.glyphicon-pause {
+      @extend .glyphicon-play;
+    }  
+  }
+  .user-badges-trophy,.trophies-repo,
+  .badges-repo {
+    img {
+      height: auto;
+      width: 100%;
+    }  
+  }
+  .tab-content {
+    .tab-badge {
+      .table-striped {
+        table-layout: fixed;
+        word-wrap: break-word;
+        tbody td {
+          padding: .5em .3em 1em;
+          &:nth-child(3) {
+            width: 32%;
+          }
+        }
+      }  
+    }
+  }    
+  .wg-user-badges-wrp,
+  .wg-user-trophies-wrp {
+    .user-badges-trophy-row {
+      padding: .7em 0 1.2em;
+      word-wrap: break-word;
+    }
+    .user-badges-trophy {
+      padding: 0 .3em;
+      width: 22%;
+      &.user-badge-msg {
+        width: 32%;
+      }
+      &.user-badge-date  {
+        width: 18%;
+      }
+    }
+  }   
+  .recent-badges,
+  .recent-trophies {
+    .wg-filter-wrap {
+      .wg-accomp-filter-wrapper {
+        width: 40%;
+      }
+    }  
+  }
+  .search-region {
+    .block-activities {
+      .wrap-accom-menu {
+        ul li {
+          margin-right: 0;
+        }
+      }    
+    }
+  }
+  .wrap-level-info {
+    .level-text {
+      margin: .5em 0 0 1em;
+      width: calc(100% - 95px);
+    }
+  }
+  .table-headers {
+    display: none;
+  } 
+  .table-records {
+    border-bottom: 2px solid $color-greyfour;
+    margin-bottom: .7em;
+    padding-bottom: .5em;
+    div {
+      margin-bottom: .5em;
+    }
+    .table-label {
+      color: $color-blue;
+      margin-bottom: 0;
+    }
+  }
+  .region {
+    .my-accomplishment-code {
+      width: 100%;
+      line-height: 1.3;
+    }
+  }
+  .node-answers-answer {
+    .content {
+      .wg-idea-attach-cnt {
+        width: 70%;
+        &:before {
+          left: 74%;
+        }
+      }  
+    }
+  }
+  .page-engagement-statistics{
+    .wg-filter-wrapper {
+      width: 100%;
+      .innogn-fltr-title {
+        font-size: 14px;
+        width: 30%;
+        &:nth-child(2) {
+          margin: 0 .8em;
+        }
+      }
+    }
+    .real-time-dashboard-wrapper {
+      height: auto;
+    }
+    .aggregated-statitics-row {
+      width: 100%;
+      font-size: 13px;
+      border: 2px solid $color-black;
+      border-top: 0;
+    }
+    .aggregated-statitics {
+      width: 100%;
+      margin-left: 0;
+      border: 2px solid $color-black;
+      border-bottom: 0;
+    }  
+    .aggregate-static {
+      float: left;
+      border-left: 1px solid $color-black;
+      border-right: 0;
+      &:first-child {
+        border-left: 0;
+      }
+    }
+  }
+  /* Css for Reward Menu in Home page */
+  .page-content-homepage {
+    .wg-img-tablet {
+      top: 0px;
+    }
+  }
+  /* Css for the store Setting page under Reward Store*/
+  .page-store-settings {
+    .main-content-wrapper { 
+      .header-section {
+        width: 100%;
+        list-style: none;
+        display: block;
+        .Reward-title {
+          display: block;
+          font-family: Roboto-Medium;
+          & li > a {
+            text-decoration: none;
+            padding-left: 11px;
+          }
+        }
+      }
+      .navbar-reward-store {
+        margin-bottom: 10px;
+        .nav-tab {
+          font-size: 12px; 
+          font-family: Roboto-Medium;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
+          display: block;
+          & li{
+            float: left;
+            width: 25%;
+            display: inline-block;
+            & a {
+              border: 1px solid #dfdfdf;
+              border-radius: 4px 4px 0 0;
+              text-align: center;
+              line-height: 50px;
+              padding: 0;
+            }
+          }
+        }
+        .navbar-nav {
+          margin: 0px 0px;
+        }
+      }
+      .wg-rsa-mail {
+        width: 100%;
+        display: inline-block;
+        /*background-color: steelblue;*/
+        padding: 6px 9px;
+        .form-group {
+          label {
+            float: left;
+            width: 30%;
+            padding: 5px;
+            color: #fff;
+          }
+          .wg-mail-title {
+            font-size: 15px;
+            display: inline-block;
+            width: 40% !important;
+          }
+        }
+        .btn {
+          margin-right: 5px;
+          float: right;
+          margin-left: 0;
+        }
+      }
+      .wg-rsa-add-button {
+        width: 69%;
+        float: left;
+        display: inline-block;
+        text-align: center;
+        margin: 11px 25px auto;
+        .wg-add-another-item {
+          font-size: 22px;
+          font-weight: bold;
+          padding-left: 1.4em;
+          &:before {
+            content: '+';
+            height: 25px;
+            width: 25px;
+            left: 10px;
+            top: 4px;
+            line-height: 24px;
+          }
+        }
+      }
+      .wg-product-csv {
+        margin-top: 8px;
+        display: block;
+      }
+      .view-products-listing {
+        .views-table {
+          margin-top: 1.3em;
+          border: 0;
+          width: 100%;
+          /*display: inline-block;*/
+          & thead > tr > th {
+            vertical-align: middle;
+            border: 1px solid #000;
+            text-align: center;
+            padding: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #fff;
+          }
+          & tbody{
+            font-size:10px;
+            text-align: center;
+          }
+          .views-field-counter{
+            width: 50px;
+          }
+        }
+      }
+    }
+    .store-setting-popup-form { 
+      .wg-pro-img {
+        width: 100% !important;
+        text-align: center !important; 
+      }
+    }
+  }
+  /* Css for the Catalogue page under Reward Store*/
+  .page-catalogue {
+    .main-content-wrapper { 
+      .block-system {
+        border: 1px solid #000;
+      }
+      .header-section {
+        width: 100%;
+        list-style: none;
+        display: block;
+        .Reward-title {
+          display: block;
+          font-family: Roboto-Medium;
+          & li > a {
+            text-decoration: none;
+            padding-left: 11px;
+          }
+        }
+      }
+      .navbar-reward-store {
+        margin-bottom: 10px;
+        .nav-tab {
+          font-size: 12px; 
+          font-family: Roboto-Medium;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
+          display: block;
+          & li{
+            float: left;
+            width: 25%;
+            display: inline-block;
+            border-bottom: 2px solid #dfdfdf;
+            & a {
+              border: 1px solid #dfdfdf;
+              border-radius: 4px 4px 0 0;
+              text-align: center;
+              line-height: 50px;
+              padding: 0;
+            }
+          }
+        }
+        .navbar-nav {
+          margin: 0px 0px;
+        }
+      }
+      .user-point-details {
+        width: 100%;
+        margin: 0 auto 15px;
+        font-family: Roboto-Medium;
+        border-bottom: 2px solid #000;
+        .user-point-first {
+          display: inline-block;
+          background: none;
+          width: 45%;
+          text-align: center;
+          font-size: 13px !important;
+          color: steelblue;
+          .user-pt-text-1 {
+            color: #000;
+          }
+        }
+        .user-point-first:nth-of-type(2) {
+          text-align: right !important;
+        }
+        .user-point-first:first-child {
+          text-align: left !important;
+          display: inline-block;
+        }
+      }
+      .reward-stroe {
+        width: 85%;
+        margin: 0 auto;
+        font-family: Roboto-Medium;
+        overflow: visible;
+        height: 100%;
+        .contain-product-details {
+          width: 100%;
+          display: inline-block;
+          .product-details {
+            margin-left: 0px; 
+            .product-descpt {
+              /*color: #000;*/
+              .podct-code {
+                word-break: break-all;
+              }
+              .main-pdt-head {
+                display: flex;
+                justify-content: space-around;
+              }
+              .main-pdt-head-1 {
+                height: 173px;
+                .podct-title {
+                  height: 173px;
+                }
+                .podct-code {
+                  height: 173px;
+                }
+              }
+            }
+          }
+        }
+      }
+    } 
+  }
+  /* CSS for the All Order page under Reward Store */
+  .page-all-orders {
+    .main-content-wrapper {
+      .header-section {
+        width: 100%;
+        list-style: none;
+        display: block;
+        .Reward-title {
+          display: block;
+          font-family: Roboto-Medium;
+          & li > a {
+            text-decoration: none;
+            padding-left: 11px;
+          }
+        }
+      }
+      .navbar-reward-store {
+        margin-bottom: 10px;
+        .nav-tab {
+          font-size: 12px; 
+          font-family: Roboto-Medium;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
+          display: block;
+          & li{
+            float: left;
+            width: 25%;
+            display: inline-block;
+            border-bottom: 2px solid #dfdfdf;
+            & a {
+              border: 1px solid #dfdfdf;
+              border-radius: 4px 4px 0 0;
+              text-align: center;
+              line-height: 50px;
+              padding: 0;
+            }
+          }
+        }
+        .navbar-nav {
+          margin: 0px 0px;
+        }
+      }
+      .wg-all-order-table {
+        margin-top: 1.3em;
+        border: 0;
+        width: 100%;
+        /*display: inline-block;*/
+        & thead > tr > th {
+          padding: 6px;
+          font-size: 12px !important;
+        }
+        & th:nth-of-type(5) {
+          display: none;
+        }
+        & tbody{
+          font-size:10px;
+          text-align: center;
+          word-break: break-all;
+          td {
+            width: 20px;
+            &:nth-of-type(5) {
+              display: none;
+            }
+          }
+        }
+        .views-field-counter{
+          width: 50px;
+        }
+        .checkbox {
+          padding-left: 0;
+        }
+        input[type=checkbox] {
+          zoom: 1.5;
+          margin-left :0px;
+        }
+      }
+      #all-order-filter > div {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-left: 0;
+        .wg-product-csv {
+          width: 81px;
+          height: 50px;
+          top: 109px;
+          left: 23.6em;
+        }
+        .container-inline {
+          margin-top: 0;
+          margin-left: 0;
+          margin-bottom: 0;
+          .panel-heading {
+            width: 38%;
+            .panel-title {
+              color: #fff;
+              font-size: 13px;
+            }
+          }
+          .form-type-select {
+            display: inline-block;
+            width: 34%;
+            margin-bottom: 0;
+          }
+        }
+      }
+      #edit-options--2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 56px;
+        margin-left: 0;
+        .panel-heading {
+          width: 40%;
+          background-color: transparent;
+          border-color: transparent;
+          .panel-title {
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+        .form-type-select {
+          display: inline-block;
+          width: 34%;
+          margin-bottom:0;
+        }
+      }
+    }
+  }
+  /* CSS for the My Order page */
+  .page-my-orders {
+    .main-content-wrapper { 
+      .header-section {
+        width: 100%;
+        list-style: none;
+        display: block;
+        .Reward-title {
+          display: block;
+          font-family: Roboto-Medium;
+          & li > a {
+            text-decoration: none;
+            padding-left: 11px;
+          }
+        }
+      }
+      .navbar-reward-store {
+        margin-bottom: 10px;
+        .nav-tab {
+          font-size: 12px; 
+          font-family: Roboto-Medium;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
+          display: block;
+          & li{
+            float: left;
+            width: 25%;
+            display: inline-block;
+            border-bottom: 2px solid #dfdfdf;
+            & a {
+              border: 1px solid #dfdfdf;
+              border-radius: 4px 4px 0 0;
+              text-align: center;
+              line-height: 50px;
+              padding: 0;
+            }
+          }
+        }
+        .navbar-nav {
+          margin: 0px 0px;
+        }
+      }
+      .user-point-details {
+        width: 100%;
+        margin: 0;
+        font-family: Roboto-Medium;
+        .user-point-first {
+          display: inline-block;
+          background: none;
+          width: 45%;
+          text-align: center;
+          font-size: 13px !important;
+          color: steelblue;
+          .user-pt-text-1 {
+            color: #000;
+          }
+        }
+        .user-point-first:nth-of-type(2) {
+          text-align: right !important;
+        }
+        .user-point-first:first-child {
+          text-align: left !important;
+          display: inline-block;
+        }
+      }
+      .wg-all-order-table {
+        /*margin-top: -0.7em; */
+        border: 0;
+        width: 100%;
+        .table {
+          & thead > tr > th {
+            vertical-align: middle;
+            border: 1px solid $color-black;
+            text-align: center;
+            padding: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            color: $color-white;
+          }
+          & tbody{
+            font-size:10px;
+            text-align: center;
+            & td {
+              width: 20px;
+            }
+          }
+          .views-field-counter{
+            width: 50px;
+          }
+        }
+        .table-footer {
+          text-align: center;
+          font-size: 16px
+        }
+      }
+    }
+    .block-system {
+      border: 1px solid $color-black;
+    }
+  }
+  /* CSS for the Platform Setting page */
+  .page-landing-page {
+    .wg-landing-page-header {
+      .wg-user-header-info {
+        /* line-height: 2; */
+        line-height: 0;
+        font-size: 16px;
+        /* display: block; */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .wg-active-user {
+          font-size: 14px;
+          float: left;
+          text-align: center;
+          /* line-height: 3; */
+          line-height: 1.2;
+          padding-left: 2px;
+        }
+        .wg-logged-email {
+          font-size: 13px;
+          padding-right: 5px;
+          line-height: 1.2;
+          padding-top: 5px;
+          padding-bottom: 10px;
+          .support-mailid {
+            margin-right: 2em;
+          }
+          .support-eml-address {
+            font-size: 13px;
+            clear: both;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .wg-list-slider-blocks {
+      width: 100% !important;
+      margin-top: 0;
+      overflow: visible !important;
+    }
+    ul#wg-list-slider-blocks > li {
+      width: 100% !important;
+      display: inline-block;
+    }
+    .wg-landing-page-crousal-slider{ 
+      .sp {
+        display: inline-block;
+        border-radius: 3em;
+        margin-left: 0;
+        margin-top: 0.4em;
+        border: 0;
+        width: 100% !important;
+        /* display: flex; */
+        /* align-items: center; */
+        height: 435px;
+        .wg-wrap-slider {
+          display: flex;
+          flex-direction: column;
+          height: initial;
+          .wg-video {
+            margin-top: 2%;
+          }
+          .cover-image {
+            width: 100%;
+            text-align: center;
+            & img {
+              width: 100%;
+              height: 250px;
+            }
+            #wg-video-custom {
+              width: 100% !important;
+              height: 270px !important;
+            }
+          }
+          .wg-landing-page-text {
+            width: 95%;
+            text-align: center;
+            color: #000;
+            background: #fff;
+            line-height: 1;
+            font-size: 13px;
+            padding: 12px 0px;
+            border: 0;
+            margin-bottom: 5em;
+            margin-left: 10px;
+            height: 112px;
+            overflow-y: scroll;
+          }
+        }
+      }
+    }
+    .slider-buttons {
+      display: none;
+    }
+    .wg-skip-to-home {
+      width: 60%;
+      padding: 10px 20px;
+      bottom: -15px;
+      left: 20%;
+      z-index: 999;
+    }
+    .wg-user-doc {
+      // top: 32.4em;
+      // right: 3em;
+      top: 10px;
+      right: 0;
+      position: relative;
+      width: 21%;
+      float: right;
+      text-align: right;
+    }
+    .wg-faq {
+      position: relative;
+      top: 10px;
+      left: 0;
+      display: block;
+    }
+    #wg-leader-board-wrapper { 
+      .wrap-sp {
+        border: 2px solid #CCC;
+        margin: 2em auto;
+        height: auto;
+        min-height: 380px;
+        .wg-activity-contib-wrapper { 
+          .wg-actvity-header-title {
+            .header-title-second {
+              display: block;
+              line-height: 1;
+              font-size: 14px !important;
+              padding: 5px;
+            }
+          }
+          .wg-time-filtered {
+            display: block;
+            padding: 0.5em;
+            position: static;
+            text-align: right;
+            width: 100%;
+            font-size: 12px;
+            padding-right: 1em;
+          }
+        }
+      }
+      .myinvestment-tablewrapper { 
+        display: block !important;
+        .table-striped {
+          tbody tr td {
+            padding: 3px;
+            text-align: center;
+            line-height: 1em;
+            font-size: 10px;
+            vertical-align: middle;
+            img {
+              width: 35px;
+              height: 35px;
+            }
+          }
+          & th {
+            text-align: center;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .idea-by-popup {
+      .pop-wrrap {
+        width: 70% !important;
+        left: 80px !important;
+        margin-top: 20px !important; 
+        height: 207px;
+        .wrap-user-info {
+          .user-name {
+            font-size: 12px;
+          }
+          .department-name {
+            font-size: 14px;
+          }
+        }
+        .point-wrap {
+          margin: 0em 0.2em 0em;
+          .user-text {
+            font-size: 10px !important;
+            margin-right: 10px !important;
+            .number {
+              font-size: 8px !important;
+            }
+          }
+        }
+      }
+    }
+    #mood_chart_1 {
+      display: none;
+    }
+    #mood_chart_2 {
+      display: none;
+    }
+    .wg-nav-wrapper {
+      display: block !important;
+      width: 50%;
+      margin: 15px auto;
+      .slider-pager {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-self: center;
+        flex-direction: row;
+        position: relative;
+        bottom: 45px;
+        z-index: 999;
+        .pager-box {
+          border: 1px solid $color-black;
+          height: 15px;
+          width: 20px;
+          background: $color-greyfive;
+        }
+      }
+    }
+  }
+  .node-type-answers-question {
+    .main-container {
+      #innogen-detail-page-filter > div {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-left: 0;
+        .wg-product-csv {
+          width: 81px;
+          height: 50px;
+          top: 109px;
+          left: 23.6em;
+        }
+        .container-inline {
+          margin-left: 0;
+          .panel-heading {
+            width: 23%;
+            .panel-title {
+              color: #fff;
+              font-size: 13px;
+            }
+          }
+          .form-type-select {
+            display: inline-block;
+            width: 49%;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .page-user{
+    .tooltip.right {
+      padding: 0 5px;
+      margin-left: -49px;
+      margin-top: 41px;
+    }
+    .tooltip-inner {
+      padding: 3px 6px;
+    }
+  }
+  #block-woxgo-custom-wg-vol-initiative-links{ 
+    #wg-vol-ini-link-wrapper{
+      display: flex;
+      align-items: center;
+      text-align: center; 
+      .wg-rewrd-str-lnk {
+        margin-right: 5px;
+      }
+      .wg-idea-corner-link {
+        margin-right: 5px;
+
+      }
+    }
+  }
+  .page-term-condition-page {
+    .main-container  {
+      .main-content-wrapper {
+        .wg-terms-wrapper {
+          .wg-terms-conditions-form-wrapper {
+            height: auto;
+            font-size: 15px;
+            .form-type-radio {
+              width: 100%;
+            }
+            .btn-primary {
+              margin: 0.3em 4em;
+              padding: 7px 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .block-worxogo-my-activities {
+    &.block-worxogo-my-task {
+      margin-bottom: 1em;
+    }  
+  }
+  .mytask-piechart-Wrapper {
+    box-sizing:border-box;
+    .mytask-piechart {
+      float:left;
+      display:block;
+      width:100%;
+      box-sizing: border-box;    
+      .chart-div {
+        max-width: 300px;
+        margin: auto;
+      }    
+    }
+    .piechart-heading {
+      cursor: pointer;
+      margin: 0;
+      padding: 10px;
+      width:100%;
+      border-bottom: 2px solid $color-greyfour;
+      box-sizing: border-box;
+      position: relative;
+      &:after {
+        position: absolute;
+        right: 10px;
+        top: 40%;
+        content: "";
+        display: inline-block;
+        width: 0.4em;
+        height: 0.4em;
+        border-right: 2px solid $color-blue;
+        border-top: 2px solid $color-blue;
+        transform: rotate(132deg);
+        margin-right: 0.5em;
+      }
+    }
+    .close-pie { 
+      .piechart-content{
+        height: 0px;
+        transition: height 1s ease-out;
+        -webkit-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        transform: scaleY(0);
+        float: left;
+        display: block;
+        width: 100%;
+        padding-left: 20px; 
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+    }  
+    .open-pie {
+      .piechart-content{
+        padding: 20px;
+        border-bottom: 2px solid $color-greyfour;
+        width: 100%;
+        margin: 0;
+        display:block;
+        -webkit-transform: scaleY(1);
+        -o-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transform-origin: top;
+        -o-transform-origin: top;
+        -ms-transform-origin: top;
+        transform-origin: top;
+        -webkit-transition: -webkit-transform 0.4s ease-out;
+        -o-transition: -o-transform 0.4s ease;
+        -ms-transition: -ms-transform 0.4s ease;
+        transition: transform 0.4s ease;
+        box-sizing: border-box;
+      }
+      .piechart-heading {
+        margin: 0;
+        &:after {
+          transform: rotate(317deg);
+          top: 42%;
+        }   
+      }
+    }
+  }
+  .myinvestment-piechart-wrapper {
+    display: block;
+    width: 100%;
+    .myinvestment-piechart {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: auto;
+    }
+    #MyInvestments_chart_div,#bar_chart_div  {
+      width: 100%;
+      min-height: 250px;
+    } 
+  }
+  .myinvestment-tablewrapper {
+   display: none;
+ }
+ .myinvestments-mobileblock {
+  margin-top: 10px;
+  border-top: 2px solid $color-greyfour;
+  .heading {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: .1em;
+  }
+  .title {
+    padding-top: 10px;
+  }
+  .myinvestment-content {
+    display: table;
+    width: 100%;
+    div {
+      width: 50%;
+      display: table-cell;
+      vertical-align: top;
+      padding-top: 10px;
+    }
+  }
+}
+/* CSS for the Attachment */
+.innstrm-descriptn {
+  .innstrm-attach {
+    width: 30%;
+    float: left;
+  } 
+  .innstrm-stage, .innstrm-title-user {
+    width: 30%;
+    float: left;
+    margin-left: .8em;
+  }
+}
+.innstrm-attachment-tab {
+  .innstrm-file-attched a {
+    word-break: break-all;
+    float: left;
+    width: 30%;
+    text-decoration: none;
+  }
+  .innostrm-user, .innstrm-discript-stage {
+    width: 30%;
+    float: left;
+    margin-left: 1em;
+    word-break: break-all;
+  }
+}
+/* CSS for the Note Attachment*/
+.innstrm-notes-tab {
+  .innstrm-notes {
+    width: 100%;
+    margin-bottom: 0.5em;
+    .innstrm-note {
+      width: 30%;
+      float: left;
+      border: 2px solid #e6e6e6;
+      padding: 2px 5px;
+    }
+    .innostrm-notes-user,
+    .innstrm-notes-stage {
+      margin-left: 1em;
+      width: 30%;
+      float: left;
+    }
+  }
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  /*
+ ** style for ideator pop
+ */
+ .idea-by-popup {
+  .pop-wrrap {
+    margin-left: 0;
+  }
+  .user-text {
+    margin-right: 10px;
+    min-height: 70px;
+    text-align: center;
+    width: 30%;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+  .wrap-user-info {
+    width: calc(100% - 35%);
+  }
+}
+.wg-innostream-right-blk {
+  .wg-innostream-wrapper {
+    .wg-arrow {
+      width: 68%;
+    } 
+  }
+} 
+#wg-footer {
+ padding: 0px 15px;
+}
+.custom-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.padding {
+  padding: 0px 15px 0px 15px;
+}
+.wg-atch-count {
+  a {
+    float: left;
+  }
+}
+.front {
+  .view-innogen {
+    .form-file::after {
+      right: 25px;
+      left: initial;
+    }
+    .views-row {
+      width: 100%;
+      &:nth-child(2n+1) {
+        margin-right: 0;
+      }
+    }
+  }
+} 
+/** css for submenu ***/
+.be-bouluteer-html-block {
+  display: none;
+}
+.nav.nav-tabs .tags {
+  font-size: 18px;
+}
+.menubaar {
+  margin: 0px;
+}
+.wg-user-org {
+  float: right !important;
+  padding-right: 64px;
+  margin-top: 10px;
+}
+.sub-menu-region {
+  padding: 0px 10px 0px 15px;
+}
+.wg-user-point-scale-main-wrapper {
+  padding-bottom: 3px;
+  float: left !important;
+  width: 100%;
+  .nav-tabs {
+    position: relative;
+    float: left !important;
+    top: 8px;
+  }
+}
+#block-woxgo-custom-wg-user-point-scale {
+  width: 100%;
+  float: left !important;
+  .wg-user-point-scale {
+    padding-left: 0px !important;
+  }
+}
+/* Evaluation prescreen page box moveable css */
+.wg-innostream-right-blk {
+  display: inline-block;
+  margin-top: 3px;
+  position: initial !important;
+  width:100% !important;
+}
+
+/** for header **/
+#navbar {
+  .container-main {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+  }
+  .block-search {
+    display: none;
+  }
+  .navbar-header {
+    position: absolute;
+    left: 44%;
+  }
+  .navbar-collapse {
+    padding-right: 8px;
+  }
+  .primary-menu {
+    .nav {
+      .dropdown-toggle {
+        text-indent: -9999px; 
+      }
+    }
+    .dropdown-submenu {
+      .dropdown-toggle {
+        text-indent: 0px;
+      }
+    }
+    .humberger {
+      top: -42px;
+      left: -17px;
+    } 
+  }
+  .navbar-nav {
+   margin-top: 0;
+   .open {
+     .dropdown-menu {
+      position: absolute;
+      top: 80%;
+      left: 0;
+      z-index: 1000;
+      float: left;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      font-size: 14px;
+      list-style: none;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+      background-clip: padding-box;
+    }
+  }
+} 
+}
+.not-logged-in {
+  #navbar { 
+    .navbar-header {
+      position: absolute;
+      left: 34%;
+    }
+  }
+}
+#navbar {
+  .wg-branding-region {
+    .brand-logo img {
+      height: 45px;
+      width: 100px;
+    }
+  }
+}
+/** css for home page **/
+.wg-video-slider {
+  height: 320px;
+}
+.video-text-overlap {
+  p:first-child {
+    max-height: 43px;
+    overflow: hidden;
+  }
+}
+#views_slideshow_cycle_teaser_section_homepage_slider-block {
+  height: 475px;
+}
+.home-innogen-frst-column, .home-innogen-second-column {
+  float: left;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  display: inline-block;
+  .views-row {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    &:nth-child(2n+1) {
+      margin-right: 0;
+    }
+  }
+}
+.view-innogen {
+  display: inline-flex;
+}
+
+.view-innogen .form-file, .view-ideas .form-file {
+  width: 73px !important;
+}
+.view-innogen .form-file::before, .view-ideas .form-file::before {
+  right: 0;
+}
+.view-innogen .form-file::after, .view-ideas .form-file::after {
+  left: 0;
+}
+/** second side bar **/
+.sidebar.img {
+  padding-left: 0;
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+/*** css for project page ***/
+.wg-ingn-listing > div:first-child {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.wg-ingn-listing > div {
+  width: 50%;
+}
+.wg-ingn-listing > div:nth-last-child(3) {
+  width: 50%;
+}
+#wg-ingn-accor {
+  display: block;
+  position: relative;
+  top: 0px;
+  min-height: 80px;
+}
+.wg-ingn-listing {
+  margin-bottom: 0em;
+  padding-bottom: 1.5em;
+}
+.wg-accordion-arrow:before {
+  content :"";
+  visibility: hidden;
+}
+.wg-instrm-wrapper:first-child > .wg-instrm-wrapper-bg {
+  background-color: #1c51c5;
+  height: 3px;
+  margin-bottom: 0;
+}
+.wg-instrm-title-header {
+  width: 100%;
+  padding-left: 0;
+}
+.wg-instrm-title-header .wg-instrm-title {
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
+.wg-instrm-header {
+  display: block;
+  font-size: 13px;
+  color: #fc7700 !important;
+  margin-bottom: 0 !important;
+}
+.wg-instrm-author-header,
+.wg-instrm-accepted-header,
+.wg-instrm-status-header {
+  width: 100%;
+  padding-top: 2em;
+}
+.wg-common-project-details {
+  padding: 0px;
+  
+}
+.wg-project-name, .wg-project-date {
+  width: 100%;
+  padding-right: 0px;
+  margin-bottom: 1em;
+}
+.wg-project-save {
+  width: 30%;
+  margin-right: 13%;
+}
+.wg-volunteer-text {
+  width: 45%;
+}
+.wg-button-reqst-voluntr {
+  margin-top: 1.5em;
+}
+.wg-instrm-listing .wg-instrm-wrapper form {
+  border-top: 3px solid #1c51c5;
+}
+.wg-instrm-wrapper form:before {
+  content: "";
+}
+.wg-project-tab .wg-project-add-list > div {
+  width: 100%;
+}
+.wg-project-tab .wg-project-add-list {
+  width: 100%;
+  padding-left: 0em;
+}
+.wg-task ,.wg-project-status-scope-wrapper,
+.wg-project-status-scope-wrapper span  {
+  width: 100%;
+  .wg-task-text,.wg-task-name {
+    width: 88%;
+  }
+}
+.wg-project-status-scope-wrapper {
+  height: auto;
+}
+.wg-child-term {
+  margin-right: 0.6em;
+}
+.wg-parent-term {
+  margin-bottom: 0.8em;
+}
+.wg-project-status-scope-wrapper input[type="radio"] {
+  margin-left: 7px;
+}
+.wg-add-milestones-sub-wrapper,.wg-listed-milestones {
+  width: 88%;
+}
+.wg-activity-text,.wg-activity-name {
+  width: 46%;
+}
+.wg-selected-team-members,.wg-activity-assigned-to {
+  width: 40.9%;
+}
+.error {
+  width: 100%;
+  float: left;
+}
+.wg-add-item {
+  float: right;
+}
+.wg-instrm-listing {
+  .wg-instrm-wrapper {
+    position: relative;  
+  }
+  .wg-project-details-button {
+    position:  absolute;
+    top: 15%;
+    min-height: 200px;
+    left: 0;
+    width: 100%;
+    margin-top: 0 !important;
+    color: transparent;
+    &:before {
+      content: "";
+      visibility: hidden;
+    }
+  }
+  .wg-project-details-open {
+    &:before {
+      visibility: hidden;
+    }
+  }
+}
+.wg-project-details-ajax-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.wg-project-tab .tab-pane .team .error {
+  position: inherit;
+  bottom: 0;
+}
+/*** css for idea evaluate page ***/
+.node-type-answers-question .view-innogen .views-field-field-file-upload {
+  width: 38%;
+  padding-left: 15px;
+} 
+.wg-innostream-left-blk {
+ padding: 3.5% 15px 0% 15px;
+}
+.wg-innostream-left-blk .wg-innogen-files-wrapper {
+  width: 38%;
+}
+/** css for add new innogen and innovision **/
+.node-answers_question-form, .node-innovision-form  {
+  .preview {
+    width: 90%;
+    margin-right: 5px;
+  }
+  .media-widget {
+    .button.launcher {
+      width: 25px;
+    }
+  }
+  .form-type-managed-file {
+   .form-file {
+     width: 90%;
+     margin-right: 5px;
+   }
+   .input-group-btn {
+     width: 25px;
+     .btn-default {
+       padding: 15px 0 0 0 ;
+       margin: 0;
+     }
+   }
+ } 
+ .form-region-right {
+  width: 100%;
+}
+.form-region-main {
+  width: 100%;
+}
+.date-no-float {
+ width: 100%;
+ .form-item {
+   margin-bottom: 0px;
+ }
+ label {
+   width: 100%
+ }
+}
+.end-date-wrapper {
+ .date-padding {
+   float: left;
+ }
+} 
+}
+.ui-widget.ui-widget-content.media-wrapper, 
+.ui-dialog .ui-dialog-content {
+ width: 100% !important;
+}
+/** css for engagement page **/
+.wg-top-commenters-block,
+.wg-top-likes-block  {
+  .wg-top-users-wrapper {
+    .wg-top-users-wrapper-all {
+      .wg-top-users-sub-wrapper-all {
+        width: 100%;
+      }
+    }
+    .wg-top-users-wrapper-first {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  }
+} 
+/*** css for idea per challege block **/
+.wg-ideas-per-challenge-main-wrapper {
+  margin-bottom : 0px;
+} 
+.wg-ideas-per-challenge-bar-wrapper {
+  width :100%;
+}
+.wg-ideas-per-challenge-innogen-details-wrapper {
+  padding: 6px 0;
+  width: 100%;
+}
+
+/** css for right sidebar ***/
+.main-wrapper-sidebar {
+  padding: 3em 7%;
+}
+.region.region-sidebar-second,
+.region.region-sidebar-second-one {
+  width: 100%;
+  padding: 0px;
+}
+/** css for activity stream **/
+.page-activity-stream {
+  .wg-activity-msg-wrapper {
+    .wg-activity-msg-type-comment,
+    .wg-activity-msg-type-idea-submission,
+    .wg-activity-msg-type-like,
+    .wg-activity-strm-msg {
+      width: 10%;
+    }
+    .wg-activity-msg {
+      width: 90%;
+    }
+  }
+}
+#wg-idea-status-pie svg > g:nth-last-child(1) text {
+  font-size: 11px !important;
+}
+#wg-idea-status-pie svg > g:nth-last-child(2) text {
+  font-size: 14px !important;
+}
+.block-evaluation-filter {
+  .menubaar ul.nav {
+    li a {
+      margin: 0 .3em;
+    }
+  }   
+}
+/* CSS for the mobile responsive in the my task page */
+.page-my-tasks {
+  .mobile-block-invested {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-top: 2px solid #dfdfdf;
+      font-family: roboto-medium;
+      font-weight: 600;
+      padding: 6px 0;
+      span.title {
+        width: 39%;
+        float: left;
+        color: red;
+      }
+      span.title:after {
+        content: ":";
+        display: inline-block;
+        float: right;
+      }
+      span.value {
+        padding-left: 6px;
+        width: 60%;
+        display: inline-block;
+      }
+    }
+  }
+}
+}
+@media (max-width: 480px) {
+  .modal {
+    .wg-project-status-scope-wrapper {
+      span {
+        width: 100%;
+        padding-left: 1em;
+      }
+    }
+  } 
+  #wg-innostream-eval {
+   .wg-innostrm-tab{
+    .wg-innostrm-eval-parameters {
+      span {
+        &:first-child {
+          width: 100%;
+        }
+      }
+    }
+    .wg-eval-param-wrapper {
+      width: 33%;
+    } 
+  } 
+}
+.wg-task-name {
+  overflow: hidden;
+}
+.wg-listed-milestones > span {
+  padding-right: 10px;
+  width: 24%;
+  float: left;
+}
+.wg-milestones-wrapper {
+  .wg-milestone-name {
+    width: 100%;
+    float: left;
+  }
+  .wg-remove-item {
+    position: absolute;
+    bottom: 8px;
+  }
+  .wg-mark-milestone-wrapper {
+    width: 50%;
+  }
+}
+.wg-task .wg-list-activity .wg-remove-item {
+  top: 0px;
+}
+.wg-add-milestones-sub-wrapper span:after {
+  top: -6px;
+}
+.wg-add-milestones-sub-wrapper, .wg-listed-milestones {
+  width: 86%;
+} 
+/*** css for top commentor block and top likes **/
+.wg-top-commenters-block .wg-filter-label,
+.wg-top-idea-generator-block .wg-filter-label,
+.wg-top-likes-block .wg-filter-label,
+.wg-idea-per-challege-block .wg-filter-label,
+.wg-idea-status-block .wg-filter-label, 
+#block-woxgo-custom-wg-top-tags .wg-filter-label,
+#block-woxgo-custom-wg-participation-trends .wg-filter-label {
+  right: 15px;
+}
+.wg-top-commenters-block,
+.wg-top-likes-block  {
+  .wg-top-users-wrapper {
+    .wg-top-users-wrapper-all {
+      .wg-top-users-sub-wrapper-all {
+        width: 100%;
+      }
+    }
+    .wg-top-users-img {
+      width: 100%;
+    }
+  }
+}
+.wg-top-idea-gen-wrapper {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.wg-top-idea-generator-block {
+  .wg-top-idea-gen-per-wrapper {
+    width: 100%;
+    float: left;
+    margin-bottom: 0.7em;
+  }
+}
+/*** css for idea tag and idea staus on idea page **/
+#block-woxgo-custom-wg-top-tags {
+  .wg-bubble-wrapper {
+   position: initial;
+ }
+}
+/** css for activity stream page **/
+.page-activity-stream {
+  .wg-activity-msg-wrapper {
+    .wg-activity-msg-type-comment,
+    .wg-activity-msg-type-idea-submission,
+    .wg-activity-msg-type-like,
+    .wg-activity-strm-msg {
+      width: 15%;
+    }
+    .wg-activity-msg {
+      width: 85%;
+    }
+  }
+}
+/*** css for investment popup **/
+.wg-investment-frm {
+  width: 100%;
+  .wg-coins-wrapper {
+    div {
+     // margin-right: 10%;
+   }
+   .coins.first {
+     // margin-left: 6%;
+   }
+ }
+}
+/** css new changes **/
+#views_slideshow_cycle_teaser_section_homepage_slider-block {
+  .views-field.views-field-nothing {
+    //position: initial;
+    bottom: 0;
+  }
+}
+.innovision-msg {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+.video-text-overlap {
+  width: 100%;
+}
+/** css for crossbrowser **/
+.ff {
+  .messages.error.file-upload-js-error {
+    width: 296px;
+    top: 0;
+  }
+}
+.wg-investment-frm {
+  .wg-coins-wrapper {
+    .increase-btn {
+      margin: 0px -1px;
+    }
+    .decrease-btn {
+      margin-right: 1px;
+      margin-left: -2px;
+    }
+    .increase-base-amt-main {
+      width: 100%;
+      display: inline-block;
+      line-height: 3.7;
+      font-size: 12px;
+      float: left;
+      text-align: center;
+    }
+  }
+  .wg-usr-balance {
+    width: 100%;
+    text-align: left;
+    padding-left: 12px;
+    margin-top: -9px;
+  }
+}
+.page-store-settings {
+  .main-content-wrapper {
+    .views-table thead > tr > th {
+      padding: 4px;
+      font-size: 12px;
+    }
+  }
+}
+}
+
+@media (min-width: 769px) {
+  .table-headers,.table-records {
+    background: $color-whiteone;
+    color: $color-black;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex; 
+    -webkit-flex-wrap: wrap;
+    -moz-box-wrap: wrap;
+    -ms-flexbox-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 1em;
+    div {
+      flex: 2 0 0%;
+      &:first-child {
+        flex: 2 0 25%;
+        padding-right:10px;
+        word-break: break-all;
+      }
+    }
+  }
+  .table-records {
+    padding: .8em 1em;
+    background: $color-white;
+    border-bottom: 1px solid $color-greysix;
+  }  
+}
+@media (max-width: 320px) {
+  .node-answers-answer {
+    .content {
+      .wg-idea-attach-cnt {
+        width: 173px;
+        &:before {
+          left: 113px;
+        }
+      }  
+    }
+  }
+  .page-engagement-statistics{
+    .wg-filter-wrapper {
+      width: 100%;
+      .innogn-fltr-title {
+        width: 100%;
+        &:nth-child(2) {
+          margin: 1em 0;
+        }
+      }
+    }  
+  }
+  .wg-coins-wrapper { 
+    padding-top: 2em !important;
+    text-align: left;
+    .increase-btn {
+      margin: 0px 15px !important;
+      text-align: center;
+      position: absolute;
+      top: 6px;
+    }
+    .decrease-btn {
+      position: absolute;
+      top: 86px;
+      margin-left: -39px !important;
+    }
+    .increase-base-amt-main {
+      line-height: 7.7 !important;
+    }
+    .wg-usr-balance {
+      margin-top: -32px;
+    }
+  }
+  /* CSS for the store setting page */
+  .page-store-settings { 
+    .main-content-wrapper { 
+      .navbar-reward-store {
+        li a {
+          font-size: 10px;
+        }
+      }
+      .wg-rsa-mail { 
+        .form-group {
+          label {
+            float: left;
+            width: 30%;
+            padding: 5px;
+            color: #fff;
+            font-size: 12PX;
+          }
+          .wg-mail-title {
+            font-size: 12px;
+            width: 40% !important;
+          }
+        }
+      }
+      .btn {
+        margin-right: 3px;
+        float: right;
+        font-size:12px;
+        margin-left: 0px;
+      }
+      .wg-rsa-add-button {
+        width: 68%;
+        margin: 12px 21px auto;
+        .wg-add-another-item {
+          font-size: 18px;
+          font-weight: bold;
+          padding-left: 1em;
+          &:before {
+            content: '+';
+            height: 22px;
+            width: 20px;
+            position: absolute;
+            left: 7px;
+            top: 2px;
+            line-height: 21px;
+          }
+        }
+      }
+      .view-products-listing {
+        .views-table {
+          margin-left: -4px;
+          thead > tr > th {
+            padding: 3px;
+            font-size: 12px;
+          }
+          tbody > tr > td {
+            font-size: 10px;
+          }
+        }
+      }
+      .store-setting-popup-form { 
+        .btn {
+          margin-right: 3px;
+          font-size:12px;
+          float: none;
+          margin-left: 0px;
+          width: 100px !important;
+        }
+        .wg-pro-img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  /* CSS for the Reward Menu in the Home page */
+  .page-content-homepage {
+    #wg-vol-ini-link-wrapper{
+      a {
+        padding: 0px 5px !important;
+      }
+    }
+  }
+  /* CSS for the Catalogue page */
+  .page-catalogue {
+    .main-content-wrapper { 
+      .navbar-reward-store {
+        li a {
+          font-size: 10px;
+        }
+      }
+      .user-point-details { 
+        .user-point-first {
+          font-size: 11px !important;
+        }
+        &:nth-of-type(2) {
+          text-align: right !important;
+        }
+      }
+      .reward-stroe { 
+        .contain-product-details { 
+          .product-descpt {
+            font-size: 12px;
+          }
+          .button {
+            width: 62%;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  /* CSS for the All Order page */
+  .page-all-orders {
+    .main-content-wrapper {
+      .navbar-reward-store {
+        li a {
+          font-size: 10px;
+        }
+      }
+      .wg-all-order-table {
+        thead > tr > th {
+          padding: 3px;
+          font-size: 12px;
+        }
+        tbody {
+          font-size: 10px;
+          word-break: break-word;
+        }
+      }
+      #all-order-filter > div {
+        .wg-product-csv {
+          left: 17em !important;
+        }
+      }
+    }
+  }
+  /* CSS for the My Order page*/
+  .page-my-orders {
+    .main-content-wrapper {
+      .navbar-reward-store {
+        li a {
+          font-size: 10px;
+        }
+      }
+      .user-point-details{
+        .user-point-first {
+          font-size: 11px !important;
+        }
+      }
+    }
+  }
+  .page-landing-page { 
+    .wg-landing-page-header {
+      .wg-user-header-info { 
+        .wg-active-user {
+          font-size: 13px !important;
+        }
+        .wg-logged-email {
+          width: 54% !important;
+          font-size: 11px;
+          .support-eml-address {
+            font-size: 12px;
+            margin-left: -1.9em;
+          }
+        }
+      }
+    }
+    #wg-leader-board-wrapper { 
+      .myinvestment-tablewrapper { 
+        .table-striped {
+          thead th {
+            text-align: center;
+            font-size: 9px;
+          }
+          tbody tr td {
+            font-size: 8px !important;
+          }
+        }
+      }
+    }
+    .idea-by-popup{ 
+      .pop-wrrap {
+        display: block !important;
+        height: 300px !important;
+        .point-wrap{
+         .user-text {
+          margin-right: 23px !important;
+        }
+      }
+      }
+      .wrap-user-info {
+        width: calc(100% - 56%) !important;
+      }
+
+    }
+  }
+  .page-user{ 
+    .tooltip-inner {
+      padding: 3px 5px;
+    }
+  }
+  .page-term-condition-page { 
+    .main-container { 
+      .main-content-wrapper { 
+        .wg-terms-wrapper { 
+         .wg-terms-conditions-form-wrapper { 
+            .form-type-radio {
+              font-size: 12px;
+            }
+            .btn-primary {
+              margin: 0.3em 1.8em !important;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 380px) {
+  .page-all-orders {
+    .main-content-wrapper {
+      #all-order-filter > div {
+        .wg-product-csv {
+          width: 81px;
+          height: 50px;
+          top: 19em;
+          left: 19.4em;
+        }
+        .container-inline {
+          .panel-heading {
+            width: 100%;
+          }
+          .form-type-select {
+            width: 95%;
+            margin-bottom: 0;
+          }
+        }
+      }
+      #edit-options--2 {
+        .panel-heading {
+          width: 100%;
+        }
+        .form-type-select {
+          display: inline-block;
+          width: 95%;
+          margin-bottom: 0;
+        }
+      }
+      .wg-all-order-table {
+        thead > tr > th {
+          padding: 6px;
+        }
+        tbody {
+          font-size: 10px;
+          word-break: break-word;
+        }
+      }
+    }
+  }
+  .page-store-settings {
+    .modal-content { 
+      .store-setting-popup-form {
+        .btn {
+          width: 100px !important; 
+        }  
+      }  
+    }
+  }
+  .page-landing-page {
+    .wg-landing-page-header { 
+      .wg-user-header-info {
+        .wg-active-user {
+          font-size: 13px;
+          /* line-height: 3.6;
+          text-align: center; */
+        }
+        .wg-logged-email {
+          width: 45%;
+          padding-right: 10px;
+          margin-right: 0 ;
+          padding-bottom: 10px;
+          .support-mailid {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .wg-landing-page-crousal-slider { 
+      .sp {
+        width: 100% !important;
+        display: inline-block;
+      }
+    }
+    .wg-user-doc {
+      /* left: 19em !important; */
+      // right: 2.9em;
+    }
+    .wg-faq {
+      left: -8px !important;
+      display: block;
+    }
+    #wg-leader-board-wrapper { 
+      .myinvestment-tablewrapper { 
+        .table-striped {
+           thead th {
+            text-align: center;
+            font-size: 9px;
+          }
+         tbody tr td {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+    .idea-by-popup { 
+      .pop-wrrap {
+        width: 75% !important;
+        left: 65px !important;
+        .point-wrap{ 
+          .user-text {
+            font-size: 9px !important;
+            margin-right: 9px !important;
+            .number {
+              font-size: 8px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .node-type-answers-question {
+    .main-container {
+      #innogen-detail-page-filter >div {
+        .wg-product-csv {
+          width: 81px;
+          height: 50px;
+          top: 19em;
+          left: 19.4em;
+        }
+        .container-inline {
+          .panel-heading {
+            width: 100%;
+          }
+          .form-type-select {
+            width: 95%;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .page-term-condition-page { 
+    .main-container { 
+      .main-content-wrapper { 
+        .wg-terms-wrapper { 
+         .wg-terms-conditions-form-wrapper { 
+            .btn-primary {
+              margin: 0.3em 2.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-device-width: 768px) and (orientation: landscape) {
+  .page-catalogue, .page-my-orders {
+    .main-content-wrapper {
+      .user-point-details {
+        .user-point-first {
+          display: inline-block;
+          background: none;
+          width: 31%;
+          text-align: center;
+        }
+        .user-point-first:first-child {
+          display: inline-block;
+          width: 33%;
+          text-align: center;
+        }
+        .user-point-first:nth-of-type(2) {
+          width: 32%;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+  /* CSS for the All order page */
+  .page-all-orders { 
+    .main-content-wrapper{ 
+      #all-order-filter > div {
+        .container-inline{
+          .form-select {
+            margin-left: -3em;
+          }
+        }
+      }
+      #all-order-list {
+        .container-inline {
+          .form-select {
+            margin-left: -3em;
+          }
+          .btn {
+            margin: 6px 14px 8px;
+          }
+        }
+      }
+    }
+  }
+  /* Css for the Landing page Feature */
+  .page-landing-page { 
+    .wg-landing-page-header{ 
+      .wg-user-header-info { 
+        .wg-active-user {
+          float: none;
+          font-size:17px;
+        }
+        .wg-logged-email {
+          font-size: 16px;
+          .support-mailid {
+            margin-right: 1em;
+            vertical-align: middle;
+          }
+          .support-eml-address {
+            font-size:15px;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    .wg-landing-page-crousal-slider{ 
+      .sp { 
+        .wg-wrap-slider { 
+          .wg-landing-page-text {
+            padding: 21px 0px;
+          }
+        }
+      }
+    }
+    .slider-buttons {
+      .button-previous {
+        margin: 0 0px 0 175px;
+      }
+      .button-next {
+        margin: 0 175px 0 0;
+      }
+    }
+    .idea-by-popup {
+     .pop-wrrap {
+        width: 70% !important;
+        left: 150px !important;
+        margin-top: 20px !important;
+        height: 207px;
+      }
+    }
+  }
+  .page-term-condition-page { 
+    .main-container { 
+      .main-content-wrapper { 
+        .wg-terms-wrapper { 
+         .wg-terms-conditions-form-wrapper { 
+          text-align: center;
+            .form-type-radio {
+              width: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

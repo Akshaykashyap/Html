@@ -1,0 +1,108 @@
+.view-filters {
+    position: absolute;
+    top: -75px;
+    right: 20px;
+    height: 49px;
+}
+
+/* ----------------CSS for the Idea innogen box and the idea filters-------------------- */
+.node-type-answers-question {
+	.view-innogen {
+		margin: 10px 0;
+		.home-innogen-frst-column {
+			.node-answers-question {
+				border: 1px solid $color-white;
+				display: flex;
+				.form-left-side {
+					display: inline-block;
+					width: 50%;
+					padding: 10px 20px;
+				}
+				.form-right-side {
+					width: 50%;
+					display: block;
+					float: right;
+					padding: 0px 20px 20px 20px;
+					border-left: 1px solid $color-white;
+					vertical-align: middle;
+				}
+			 }
+		}
+	}
+	.view-ideas {
+		position: relative;
+		.view-filters {
+			position: absolute;
+			top: -57px;
+			right: -80px;
+			height: 49px;
+			#views-exposed-form-ideas-block {
+				.views-exposed-form {
+					border-radius: 5px;
+					.views-exposed-widgets {
+						margin-bottom: .5em;
+						width: 100%;
+				    // position: absolute;
+				    // top: -75px;
+				    // right: 40px;
+				    // border-radius: 5px;
+				    border-color: $color-white;
+				    font-size: 16px;
+				    min-height: 45px;
+				    .views-exposed-widget {
+				  	  float: left;
+				  	  padding: .6em 1em 0 0;
+				    }
+				    .form-type-select {
+				  	  width: 100%;
+				  	  display: inline-flex;
+				  	  label {
+				  		  width: 58%;
+				  		  padding: 0px 34px;
+				  		  font-family: Roboto-Light;
+				  		  display: block;
+				  		  font-size: 16px;
+				  		  color: $color-white;
+				  	  }
+				  	  .form-control {
+				  		  display: block;
+				  		  width: 100%;
+				  		  height: 37px;
+				  		  padding: 6px 49px;
+				  		  font-size: 14px;
+				  		  line-height: 1.428571429;
+				  		  color: #555;
+				  		  vertical-align: middle;
+				  		  background-color: $color-white;
+				  		  border: 1px solid #ccc;
+				  		  border-radius: 4px;
+				  		  margin: -6px 0;
+				  	  }
+				    }
+				    .form-submit {
+				  	  margin: -5px;
+				  	  border: 1px solid $color-white;
+				  	  position:absolute;
+				  	  right: -95px;
+				    }
+				  }
+			  }
+		  }
+	  }
+  }
+  .views-row .btn {
+  	color: #fff;
+  	font-family: Roboto-Medium;
+    border: 1px solid $color-white;
+  }
+}
+ /* This CSS is adding for the Admin menu */
+.admin-menu {
+	.answer-wrapper {
+		display:none;
+	}
+}
+/* Add Background color for the comment button  */
+ .node-type-answers-question .views-row .btn:hover {
+  background: #1c51c5;
+ }

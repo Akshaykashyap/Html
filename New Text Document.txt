@@ -1,0 +1,166 @@
+.page-landing-page {
+  .wg-landing-page-header {
+    .wg-user-header-info {
+      line-height: 2;
+      font-size: 16px;
+      display: block;
+      width: 100%;
+      .wg-active-user {
+        width: 46%;
+        display: inline-block;
+        font-size: 18px;
+        font-family: roboto-regular;
+        color: #000;
+        font-weight: 600;
+        float: left;
+        text-align: center;
+      }
+      .wg-logged-email {
+        width: 45%;
+        display: inline-block;
+        font-size: 14px;
+        font-family: roboto-regular;
+        text-align: right;
+        padding-right: 10px;
+        color: #000;
+        font-weight: 600;
+        /* clear: both; */
+        line-height: 1.2;
+        padding-top: 5px;
+        .support-eml-address {
+          text-decoration: underline;
+          color: #0961BD;
+          font-size: 13px;
+          clear: both;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  ul#wg-list-slider-blocks > li {
+    width: 35% !important;
+  }
+  .wg-landing-page-crousal-slider{ 
+    .sp {
+      display: inline-block;
+      border-radius: 6em;
+      margin-left: 0;
+      margin-top: 0.4em;
+      border: 0;
+      width: 385px !important;
+      .wg-wrap-slider {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        flex-shrink: 1;
+        align-items: center;
+        padding: 1em;
+        justify-content: space-between;
+        height: inherit;
+        flex-direction: column;
+        .wg-video {
+          margin-top: 10%;
+        }
+        .cover-image {
+          width: 100%;
+          text-align: center;
+          #wg-video-custom {
+            width: 100% !important;
+            height: 270px !important;
+          }
+        }
+        .wg-landing-page-text {
+          width: 95%;
+          text-align: center;
+          color: #000;
+          background: #fff;
+          line-height: 1;
+          font-size: 13px;
+          padding: 50px 0px;
+          border: 0;
+          margin-bottom: 5em;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .wg-skip-to-home {
+    width: 60%;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -65px;
+    margin-bottom: 10px;
+    left: 24%;
+  }
+  .wg-user-doc {
+    width: 7%;
+    position: absolute;
+    cursor: pointer;
+    top: 40em;
+    left: 22em;
+  }
+  .wg-faq {
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+    background: url(../images/User_Guide_2.jpg) no-repeat !important;
+    top: 10px;
+    left: 0;
+    display: block;
+      }
+    }
+    .wg-leader-board-wrapper { 
+      .wrap-sp {
+        border: 2px solid #CCC;
+        margin: 3em auto;
+        .wg-activity-contib-wrapper { 
+          .wg-actvity-header-title {
+           .header-title-second {
+            display: block;
+            line-height: 1;
+            font-size: 14px !important;
+          }
+        }
+        .wg-time-filtered {
+          width: 100%;
+          text-align: center;
+          display: block;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+div#nav {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 11px auto;
+    justify-content: space-around;
+}
+
+/* innogen details page *?////////////////////////////
+/* Idea Innogen Detail Page */
+.block-idea-list {
+  .wg-idea-innogen-second-column {
+    .views-row-first {
+       .wg-idea-title {
+	  height: 100px;
+	  overflow-y: auto;
+	  clear: both;
+	  margin: 0 0 10px;
+         }
+	 .comment-wrapper {
+	   .comment-warpper {
+	     height: 100px;
+	       overflow-y: auto;
+	       }
+             }
+	   }
+	}
+}
+
+submit angular fome store value in the database
